@@ -8,17 +8,12 @@ hillaryclinton_file = os.path.join(directory, 'hillaryclinton.jpg')
 
 # Open and show the hillaryclinton image in a new Figure window
 hillaryclinton_img = PIL.Image.open(hillaryclinton_file)
-fig, axes = plt.subplots(1, 2)
-axes[0].imshow(hillaryclinton_img, interpolation='none')
+fig, axes = plt.subplots(1, 1)
+axes.imshow(hillaryclinton_img, interpolation='none')
 
-# Display hillaryclinton in second axes and set window to the right eye
-axes[1].imshow(hillaryclinton_img, interpolation='none')
-axes[1].set_xticks(range(1050, 1410, 100))
-axes[1].set_xlim(1050, 1400) #coordinates measured in plt, and tried in iPython
-axes[1].set_ylim(1100, 850)
 fig.show()
 
-# Open, resize, and display logo
+'''# Open, resize, and display logo
 logo_file = os.path.join(directory, 'logo.png')
 logo_img = PIL.Image.open(logo_file)
 logo_small = logo_img.resize((89, 87)) #eye width and height measured in plt
@@ -45,4 +40,4 @@ axes3[0].imshow(hillaryclinton_img, interpolation='none')
 axes3[1].imshow(hillaryclinton_img, interpolation='none')
 axes3[1].set_xlim(715, 775)
 axes3[1].set_ylim(1000, 950)
-fig3.show()
+fig3.show()'''
