@@ -1,0 +1,17 @@
+# IPython log file
+
+square_corners_of_all_images()
+%run H:/CSSE/1.4/1.4.5/aleavitt_mburns_1_4_5.py
+square_corners_of_all_images()
+%run H:/CSSE/1.4/1.4.5/mask.py
+round_corners_of_all_images()
+%run H:/CSSE/1.4/1.4.5/aleavitt_mburns_1_4_5.py
+square_corners_of_all_images()
+%run H:/CSSE/1.4/1.4.5/mask.py
+%run H:/CSSE/1.4/1.4.5/mask.py
+round_corners_of_all_images()
+%logstop
+# Thu, 08 Jan 2015 08:44:19
+%logstart
+# Thu, 08 Jan 2015 08:44:25
+%logstop
