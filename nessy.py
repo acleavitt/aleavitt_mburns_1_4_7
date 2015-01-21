@@ -1,4 +1,3 @@
-
 import PIL
 import matplotlib.pyplot as plt
 import os.path              
@@ -121,7 +120,7 @@ def modify_all_images(directory=None):
         directory = os.getcwd() # Use working directory if unspecified
         
     # Create a new directory 'modified'
-    new_directory = os.path.join(directory, 'modified')
+    new_directory = os.path.join(directory, 'photos')
     try:
         os.mkdir(new_directory)
     except OSError:
