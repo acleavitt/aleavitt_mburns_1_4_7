@@ -56,9 +56,6 @@ def modify_image(original_image):
     axes3[1].set_ylim(50, 100)
     fig3.show()'''
 
-
-    #draw a border
-    '''draw.polygon([('''
     
     #Paste absract image in top left corner
     original_image.paste(abstract_small, (percentage_side, percentage_top), mask=0) 
@@ -80,7 +77,7 @@ def modify_image(original_image):
 
 
 
-def get_images(directory=None):
+'''def get_images(directory=None):
     """ Returns PIL.Image objects for all the images in directory.
     
     If directory is not specified, uses current directory.
@@ -137,4 +134,4 @@ def modify_all_images(directory=None):
         new_image = modify_image(image_list[n])
         #save the altered image, suing PNG to retain transparency
         new_image_filename = os.path.join(new_directory, filename + '.png')
-        new_image.save(new_image_filename)   
+        new_image.save(new_image_filename) '''  
